@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:honeydew
+}
+
+div#personagem h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
+    margin-left: 40px;
+    padding: 20px;
+}
+
+div#personagem p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
+    margin-left: 20px;
+    padding: 10px;
+}
+
+div#botao{
+    padding: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+div#botao button{
+    background-color:rgb(241, 106, 15);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 70px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 90px;
+}
+
+div#main_img{
+    padding: 20px;
+    margin-left: 40px;
+}
