@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: url('img/OIP.jfif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;   
+}
+
+nav p{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    color: rgb(121, 119, 119);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+    text-shadow: rgb(134, 134, 134) 0.1em 0.1em 0.2em;
+
+}
+
+#texto{
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 100px;
+}
+
+#bio{
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-right: 250px;
+}
+
+/* #galeria{
+    display: flex;
+    margin-top: 100px;
+    
+} */
+
+div#dia-semana{
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    
+}
+
+div#dia-semana p{
+    display: flex;
+    justify-content: center;
+    /* margin-top: 50px; */
+    color: rgb(121, 119, 119);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+    text-shadow: rgb(134, 134, 134) 0.1em 0.1em 0.2em;
+}
+
+div#dia-semana button {
+    display: flex;
+    justify-content: center;
+    
+    color: rgb(121, 119, 119);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+    text-shadow: rgb(134, 134, 134) 0.1em 0.1em 0.2em;
+}
+
+div#pictures {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 5px;
+    color: rgb(121, 119, 119);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18   px;
+    text-shadow: rgb(134, 134, 134) 0.1em 0.1em 0.2em;
+    padding: 20px;
+}
+
+
+
+.footer:hover{
+    -ms-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg); 
+    transform: rotate(360deg);
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
+}
